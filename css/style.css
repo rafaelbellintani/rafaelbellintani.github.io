@@ -108,3 +108,21 @@ body{
     padding-bottom: 20px;
 
 }
+
+.projetos img{
+    width: 300px;
+}
+
+.projetos h2{
+    color: white;
+    margin: 5px;
+}
+
+.projetos p{
+    color: white;
+    margin-top: 5px;
+}
+
+.projetos a{
+    text-decoration: none;
+}
