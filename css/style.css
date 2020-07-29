@@ -108,6 +108,19 @@ body{
     font-size: 1.5em;
 }
 
+
+
+@media (max-width: 739px){
+    .contato button{
+        
+    }
+    
+    .contato input:{
+        width: 280px;
+        margin-bottom: 5px;
+    }
+}
+
 .footer {
     background: #b300db;
     margin-top: 30px;
