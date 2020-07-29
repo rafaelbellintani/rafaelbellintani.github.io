@@ -30,6 +30,22 @@ body{
     padding: 20px;
 }
 
+@media (min-width: 740px) and (max-width: 980px){
+    .container{
+        width: 720px;
+    }
+}
+
+@media (max-width: 739px){
+    .container{
+        width: 300px;
+    }
+    
+    .img-container:{
+        width: 100px;
+    }
+}
+
 .img-container{
     display: inline-block;
     text-align: center;
