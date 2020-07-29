@@ -1,0 +1,1 @@
+alert("Site feito com HTML E CSS PURO, sem o uso de frameworks");
