@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+
+*{
+    box-sizing: content-box;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container::before, .container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav {
+    background: #b300db;
+    box-shadow: 5px 8px 20px #888888;
+}
+
+.nav img{
+    width: 250px;
+    padding: 20px;
+}
+
+.img-container{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.img-container img{
+    padding: 30px;
+    width: 150px;
+}
+
+.conhecimentos{
+    margin: 0 auto;
+
+}
+
+.container > h1{
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #b300db;
+}
+
+.projetos{
+    background: #b300db;
+}
+
+.projetos h1{
+    color: white;
+}
+
+.contato input{
+    width: 340px;
+    padding: 10px;
+    border: 2px solid #b300db;
+    background: none;
+    font-family: sans-serif;
+    color: #b300db;
+    font-size: 1.5em;
+    
+}
+.contato button{
+    background: none;
+    border: 2px solid #b300db;
+    padding: 10px;
+    color: #b300db;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.contato button:hover{
+    background: none;
+    border: 2px solid #b300db;
+    padding: 10px;
+    color: white;
+    background: #b300db;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.footer {
+    background: #b300db;
+    margin-top: 30px;
+}
+
+.footer p {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.footer img {
+    width: 40px;
+    padding-bottom: 20px;
+
+}
