@@ -77,6 +77,10 @@ body{
     background: #f7df00;
 }
 
+.certificados h1{
+    color: white;
+}
+
 .projetos h1{
     color: #f7df00;
 }
@@ -87,6 +91,7 @@ body{
 }
 
 .projetos h2{
+    padding-top: 10px;
     color: #f7df00;
     margin: 5px;
 }
