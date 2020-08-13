@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    body: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thebox {
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Curso de Javascript</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="Exercises container">
+            <button id="buttonOne" onclick="unHiddenOne()">Exercício 1</button>
+            <button id="buttonTwo" onclick="unHiddenTwo()">Exercício 2</button>
+            <button id="buttonThree" onclick="unHiddenThree()">Exercício 3</button>
+            <button id="buttonFour" onclick="unHiddenFour()">Exercício 4</button>
+        </div>
+
+        <div id="firstExercise" class="container" hidden>
+            <h1>1º exercício</h1><br>
+            <p>Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
+            vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
+            aparecer na tela.</p><br>
+            <h3>Clique no botão</h3><br>
+            <button id="buttonEventOne">1º Exercício</button><br>
+        </div>
+
+        <div id="twoExercise" class="container" hidden>
+            <h1>2º exercício</h1><br>
+            <p>Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
+                algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:</p><br>
+                <p><i>
+                    function getRandomColor() {<br>
+                        var letters = "0123456789ABCDEF";<br>
+                        var color = "#";<br>
+                        for (var i = 0; i < 6; i++) {<br>
+                        color += letters[Math.floor(Math.random() * 16)];<br>
+                        }<br>
+                        return color;<br>
+                       }<br>
+                       var newColor = getRandomColor(); // #E943F0<br>
+                    </i></p><br>
+                    <h3>Clique no botão</h3><br>
+                    <button id="buttonEventTwo">1º Exercício</button><br>    
+        </div>
+
+        <div id="threeExercise" class="container" hidden>
+            <h1>3º exercício</h1><br>
+            <p>A partir do seguinte vetor: </p><br>
+            <i>var nomes = ["Diego", "Gabriel", "Lucas"];</i><br>
+            <P>Preencha uma lista no HTML com os itens da seguinte forma:<br>
+                ● Diego<br>
+                ● Gabriel<br>
+                ● Lucas<br>
+                </P>
+        </div>
+
+        <div id="fourExercise" class="container" hidden>
+            <h1>4º exercício</h1><br>
+            <p>Seguindo o resultado do exercício anterior adicione um input em tela e um botão como a seguir:</p><br>
+            <i><*input type="text" name="nome"><br>
+                <*button onClick="adicionar()">Adicionar<*/button>
+                </i>
+            <p>Ao clicar no botão, a função adicionar() deve ser disparada adicionando um novo item a lista de nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos
+                demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.</p><br><br>
+
+                <input type="text" name="nome" id="nome"><br>
+                <button onClick="adicionar()">Adicionar</button>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
