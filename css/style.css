@@ -21,7 +21,7 @@ body{
 }
 
 .nav {
-    background: #f7df00;
+    background: #525150;
     box-shadow: 5px 8px 20px #888888;
 }
 
@@ -82,17 +82,17 @@ body{
 }
 
 .projetos h1{
-    color: #f7df00;
+    color: #525150;
 }
 
 .projetos p{
-    color: #f7df00;
+    color: #525150;
     margin-top: 5px;
 }
 
 .projetos h2{
     padding-top: 10px;
-    color: #f7df00;
+    color: #525150;
     margin: 5px;
 }
 
@@ -102,7 +102,7 @@ body{
     border: 2px solid #f7df00;
     background: none;
     font-family: sans-serif;
-    color: #f7df00;
+    color: #525150;
     font-size: 1.5em;
     
 }
@@ -110,7 +110,7 @@ body{
     background: none;
     border: 2px solid #f7df00;
     padding: 10px;
-    color: #f7df00;
+    color: #525150;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
@@ -121,7 +121,7 @@ body{
     border: 2px solid #f7df00;
     padding: 10px;
     color: white;
-    background: #f7df00;
+    background: #525150;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
