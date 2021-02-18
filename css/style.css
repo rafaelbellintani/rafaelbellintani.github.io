@@ -70,11 +70,11 @@ body{
     padding-top: 30px;
     font-size: 1.5em;
    //font-style: italic;
-    color: #525150;
+    color: #000000;
 }
 
 .certificados{
-    background: #525150;
+    background: #000000;
 }
 
 .certificados h1{
@@ -82,11 +82,11 @@ body{
 }
 
 .projetos h1{
-    color: #525150;
+    color: #000000;
 }
 
 .projetos p{
-    color: #525150;
+    color: #000000;
     margin-top: 5px;
 }
 
@@ -108,7 +108,7 @@ body{
 }
 .contato button{
     background: none;
-    border: 2px solid #f7df00;
+    border: 2px solid #000000;
     padding: 10px;
     color: #525150;
     text-transform: uppercase;
@@ -121,7 +121,7 @@ body{
     border: 2px solid #f7df00;
     padding: 10px;
     color: white;
-    background: #525150;
+    background: #000000;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
@@ -137,7 +137,7 @@ body{
 }
 
 .footer {
-    background: #525150;
+    background: #000000;
     margin-top: 30px;
 }
 
